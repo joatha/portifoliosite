@@ -1,0 +1,2 @@
+[1128/164307.906:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1128/173254.697:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Joatha\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\94aaf401-604e-45c6-9485-18251a4a07bf: O sistema não pode encontrar o caminho especificado. (0x3)

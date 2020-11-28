@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.links{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+}
+
+.links label{
+    padding: 10px o;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.links label:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.scroll input{
+    display: none;
+
+}
+
+.bloco{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#inicio{
+    background-color:#ebebeb;
+}
+
+#sobre{
+    background-color: #69f;
+
+}
+
+#portifolio{
+    background-color: #faa;
+
+}
+
+#contato{
+
+    background-color: #aaa;
+
+}
+
+#noticias{
+
+    background-color: #414950;
+
+}
+
+.scroll{
+    display: flex;
+    width: 100vw;
+    height: 100vhh;
+    overflow: hidden;
+}
+
+
+.sections{
+    transition: all .4s;
+}
+
+
+
+#rd_sobre:checked ~ .sections{
+
+    margin-top:-100vh;
+   
+}
+
+#rd_portifolio:checked ~ .sections{
+
+    margin-top: -200vh;
+
+}
+#rd_contato:checked ~ .sections{
+
+    margin-top: -300vh;
+    
+}
+
+#rd_noticias:checked ~ .sections{
+
+    margin-top: -400vh;
+    
+}
+
+#img_topo{
+    text-align: center;
+}
+
+
+
+
