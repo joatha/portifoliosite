@@ -102,7 +102,6 @@
 
 #img_topo{
 
-    padding: 100px;
     text-align: center;
 }
 
@@ -126,6 +125,7 @@ h1::after{
 
 h1{
     font-family: 'Kodchasan', sans-serif;
+    text-align: center;
 }
 
 
