@@ -57,11 +57,11 @@
 
 #sobre{
    
-background: linear-gradient(90deg, rgba(45,25,55,1) 0%, rgba(111,0,254,1) 97%);
-background-size: 300% 300%;
-animation: colors 15s ease infinite;
+background-color:rgb(216, 210, 210);
+
 
 }
+
 
 #portifolio{
 
@@ -155,11 +155,29 @@ h1::after{
     
 }
 
+.box1 img{
+    height: 400px;
+    width: 400px;
+    left: 100px;
+    margin-right: 190px;
+}
+
 
 #git-hub{
     padding: 30px;
     height: -150px;
     left: 170px;
+}
+
+#detalhe{
+    float: left;
+}
+
+#descricaoText{
+    font-family: 'Josefin Slab', serif;
+
+    text-align:left  ;
+    font-size: 25px;
 }
 
 @keyframes pisca {
@@ -193,6 +211,7 @@ h1{
 
     }
 }
+
 
 
 
