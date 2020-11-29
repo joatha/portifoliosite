@@ -9,7 +9,6 @@
     height: 50px;
     position: fixed;
     display: flex;
-    background: rgb(105,50,187);
     background: linear-gradient(90deg, rgba(105,50,187,1) 0%, rgba(125,106,209,1) 45%, rgba(133,114,215,1) 98%);
     
 }
@@ -26,6 +25,8 @@
 
 .links label:hover{
     background-color: rgba(236, 90, 224, 0.2);
+    animation: colors 15s ease infinite;
+    background-size: 300% 300%;
 }
 
 .scroll input{
@@ -41,8 +42,24 @@
     display: flex;
 }
 #inicio{
-    background: rgb(105,50,187);
-    background: linear-gradient(90deg, rgba(105,50,187,1) 0%, rgba(108,93,177,1) 49%, rgba(133,114,215,1) 98%);
+    background: linear-gradient(45deg, #aaaaaa, #bbbbbb, #f2dcbb, #f9f7cf);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{
+        background-position: 0% 50%;
+
+    }
 }
 
 #sobre{
