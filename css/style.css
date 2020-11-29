@@ -19,7 +19,6 @@
     flex-grow: 1;
     cursor: pointer;
     transition: all .4s;
-    text-align: center;
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 100%;
     color: rgb(255, 255, 255);
@@ -134,6 +133,8 @@ h1{
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
 }
+
+
 
 
 

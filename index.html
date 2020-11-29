@@ -11,15 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Text+Me+One&display=swap" rel="stylesheet">  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/responsivo.css">
     <title>Menu</title>
 </head>
 <body>
+ 
     <nav class="links">
-        <label for="rd_inicio">INICIO</label>
-        <label for="rd_sobre">SOBRE</label>
-        <label for="rd_portifolio">PORTFÓLIO</label>
-        <label for="rd_contato">CONTATO</label>
-        <label for="rd_noticias">NOTICIAS</label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+    <ul>
+        <li> <a> <label for="rd_inicio" id="menu"> INICIO </label ></a> </li>
+        <li> <a><label for="rd_sobre" id="menu">SOBRE</label></a></li>
+        <li> <a> <label for="rd_portifolio" id="menu">PORTFÓLIO</label></a></li>
+        <li> <a> <label for="rd_contato" id="menu">CONTATO</label></a></li>
+        <li> <a><label for="rd_noticias" id="menu">NOTICIAS</label></a></li>
+    </ul>
+
 
     </nav>
     <div class="scroll">    
@@ -39,9 +47,13 @@
 
                 <img src="img/topo.png"  alt="flat" class="topo" id="img_topo">
            
-                <h1>Qualidade e Agilidade.</h1>
+                <h1>Qualidade e Agilidade.</h1><br>
+                
+
+                
 
             </div>
+            
 
                  
         </section>
