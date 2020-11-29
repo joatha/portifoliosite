@@ -9,8 +9,8 @@
     height: 50px;
     position: fixed;
     display: flex;
-    background: rgb(187,84,128);
-    background: linear-gradient(90deg, rgba(187,84,128,1) 0%, rgba(128,16,138,1) 41%);
+    background: rgb(105,50,187);
+    background: linear-gradient(90deg, rgba(105,50,187,1) 0%, rgba(125,106,209,1) 45%, rgba(133,114,215,1) 98%);
     
 }
 
@@ -41,12 +41,13 @@
     display: flex;
 }
 #inicio{
-    background: rgb(204,183,214);
-background: linear-gradient(90deg, rgba(204,183,214,1) 0%, rgba(150,111,200,1) 97%);
+    background: rgb(105,50,187);
+    background: linear-gradient(90deg, rgba(105,50,187,1) 0%, rgba(108,93,177,1) 49%, rgba(133,114,215,1) 98%);
 }
 
 #sobre{
-    background-color: #69f;
+    background: rgb(45,25,55);
+background: linear-gradient(90deg, rgba(45,25,55,1) 0%, rgba(111,0,254,1) 97%);
 
 }
 
@@ -132,6 +133,7 @@ h1::after{
 h1{
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
+    color: #fff;
 }
 
 
