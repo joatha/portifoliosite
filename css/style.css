@@ -64,7 +64,10 @@ animation: colors 15s ease infinite;
 }
 
 #portifolio{
-    background-color: #faa;
+
+    background:linear-gradient( 30deg, #ffe3d8, #bbbbbb, #03506f, #0a043c);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
 
 }
 
@@ -136,12 +139,44 @@ h1::after{
 
 }
 
-#img_bh{
 
-    text-align: center;
-    width: 1000px;
+#img_bh {
+   
+    width: 200px;
+    height: auto;
+    
+
+}
+
+#img_git{
+    position: relative;
+    left: 20%;
+    width: 200px;
     height: auto;
 
+}
+.sobremim{
+    position: relative;
+    height: 200px;
+    width: 2OOpx;
+    left: -3%;
+    
+}
+.sobremim img {
+    
+    width: 150px;
+    display: inline-block;
+}
+.bloco img{
+    width: 300px;
+    height: auto;
+}
+
+
+#git-hub{
+    padding: 30px;
+    height: -150px;
+    left: 170px;
 }
 
 @keyframes pisca {
@@ -158,6 +193,8 @@ h1{
     text-align: center;
     color: #fff;
 }
+
+
 
 @keyframes colors{
     0%{
